@@ -1,4 +1,8 @@
 # ExeRay :hospital:  
+<p align="center">
+  <img src="assets/ExeRay_Image.png" alt="TruxTrace banner" width="560"/>
+</p>
+
 *X-ray Vision for Windows Executables*    
 
 - Detect malicious `.exe` files using machine learning. Extracts **static features (entropy, imports, metadata) and combines ML with heuristic rules for fast, automated classification.**  
