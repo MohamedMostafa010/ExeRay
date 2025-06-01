@@ -64,7 +64,7 @@ cd ExeRay
 ```bash
 pip install -r dependencies/requirements.txt
 ```
-### **3. Download Samples**
+### **3. Download Samples:**
 ```bash
 > python download_malware_samples.py
 API Response Status: ok
@@ -74,12 +74,12 @@ Downloading .exe malware: 100%|████████████████�
 - Malware samples in: ../data/malware
 - Benign samples in:  ../data/benign
 ```
-### **4. Extract Features**
+### **4. Extract Features:**
 ```bash
 > python extract_features.py
 Dataset saved to ../output/malware_dataset.csv
 ```
-### **5. Train Model**
+### **5. Train Model:**
 ```bash
 > python train_model.py
 Training models:   0%|                                                                                                                                                 | 0/2 [00:00<?, ?it/s]
@@ -104,7 +104,7 @@ Optimal threshold: 0.670
 
 Model saved to ../models/malware_detector.joblib
 ``` 
-### **6. Predict Executable**
+### **6. Predict Executable:**
 ```bash
 > python predict.py "path/to/[benign_file]"
 Malware Detection Results:
