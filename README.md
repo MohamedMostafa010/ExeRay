@@ -34,7 +34,8 @@
 
 ## :file_folder: **Directory Structure**  
 ```plaintext
-ExeShield_AI/  
+ExeShield_AI/
+├── assets/                      # Repo Images
 ├── data/                        # Raw Samples  
 │   ├── malware/                 # Malicious Executables  
 │   └── benign/                  # Clean Executables
