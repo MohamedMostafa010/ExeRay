@@ -31,15 +31,16 @@
 ## :file_folder: **Directory Structure**  
 ```plaintext
 ExeShield_AI/  
-├── data/                # Raw samples  
-│   ├── malware/        # Malicious executables  
-│   └── benign/        # Clean executables  
-├── models/             # Saved models/thresholds  
+├── data/                        # Raw Samples  
+│   ├── malware/                 # Malicious Executables  
+│   └── benign/                  # Clean Executables
+├── dependencies/                # Installation Dependencies
+├── models/                      # Saved Models/Thresholds  
 │   ├── malware_detector.joblib  
 │   └── optimal_threshold.npy  
-├── output/             # Processed data (CSV/features)
+├── output/                      # Processed Data (CSV/features)
 │   └── malware_dataset.csv
-├── scripts/            # Core scripts  
+├── scripts/                     # Core Scripts  
 │   ├── download_malware_samples.py  
 │   ├── extract_features.py  
 │   ├── train_model.py  
@@ -47,8 +48,18 @@ ExeShield_AI/
 └── README.md
 ```
 
-## :computer: Usage (Commands & Outputs)
-### **1. Download Samples**
+## :computer: Installation and Usage (Commands & Outputs)
+
+### **1. Clone the repository:**
+```bash
+git clone https://github.com/MohamedMostafa010/ExeRay.git
+cd ExeRay
+```
+### **2. Install dependencies:**
+```bash
+pip install -r dependencies/requirements.txt
+```
+### **3. Download Samples**
 ```bash
 > python download_malware_samples.py
 API Response Status: ok
@@ -58,12 +69,12 @@ Downloading .exe malware: 100%|████████████████�
 - Malware samples in: ../data/malware
 - Benign samples in:  ../data/benign
 ```
-### **2. Extract Features**
+### **4. Extract Features**
 ```bash
 > python extract_features.py
 Dataset saved to ../output/malware_dataset.csv
 ```
-### **3. Train Model**
+### **5. Train Model**
 ```bash
 > python train_model.py
 Training models:   0%|                                                                                                                                                 | 0/2 [00:00<?, ?it/s]
@@ -88,7 +99,7 @@ Optimal threshold: 0.670
 
 Model saved to ../models/malware_detector.joblib
 ``` 
-### **4. Predict Executable**
+### **6. Predict Executable**
 ```bash
 > python predict.py "path/to/[benign_file]"
 Malware Detection Results:
