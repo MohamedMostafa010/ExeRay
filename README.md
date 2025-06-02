@@ -1,4 +1,4 @@
-# ExeRay :hospital:  
+# ExeRay :hospital:   
 <p align="center">
   <img src="assets/ExeRay_Image.png" alt="TruxTrace banner" width="560"/>
 </p>
