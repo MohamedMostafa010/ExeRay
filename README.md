@@ -41,7 +41,7 @@
         <a href="https://bazaar.abuse.ch/">MalwareBazaar</a>
       </td>
       <td>WannaCry.exe, njRAT.exe</td>
-      <td>4200</td>
+      <td>10,925</td>
     </tr>
     <tr>
       <td><strong>Benign Dataset</strong></td>
@@ -51,16 +51,18 @@
         <a href="https://portableapps.com/">PortableApps.com</a>
       </td>
       <td>Putty.exe, notepad.exe, ida.exe</td>
-      <td>3500</td>
+      <td>3,590</td>
     </tr>
     <tr>
       <td colspan="3" style="text-align:right;"><strong>Total</strong></td>
-      <td><strong>7700</strong></td>
+      <td><strong>14,515</strong></td>
     </tr>
   </tbody>
 </table>
 
 </div>
+
+- **Dataset Processing:** From **10,925 malware samples,** we processed **4,200 for feature extraction,** then applied **Undersampling to balance with 3,500 benign samples (7,000 total)**. Used **RandomUnderSampler (random_state=42)** to **prevent malware bias while preserving key patterns.**
 
 ## :gear: **Enhanced Features**  
 - Hybrid AI detection **(XGBoost + Random Forest)**
