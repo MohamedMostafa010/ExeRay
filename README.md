@@ -15,6 +15,52 @@
 - **Recall-Optimized Training**: Custom scorer prioritizing malware detection
 - **Streamlined 3-Script Architecture** (faster workflow)
 - **Improved Accuracy** (F1-score up to 0.99 in testing)
+- **Dataset Provided !!**
+
+## 📊 Dataset Information
+
+**- Source & Composition**:
+
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>From</th>
+      <th>Examples</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Malicious Dataset</strong></td>
+      <td>
+        <a href="https://github.com/iosifache/DikeDataset">DikeDataset</a>, 
+        <a href="https://github.com/ytisf/theZoo">theZoo</a>, 
+        <a href="https://bazaar.abuse.ch/">MalwareBazaar</a>
+      </td>
+      <td>WannaCry.exe, njRAT.exe</td>
+      <td>4200</td>
+    </tr>
+    <tr>
+      <td><strong>Benign Dataset</strong></td>
+      <td>
+        Windows Files, 
+        <a href="https://ninite.com/">Ninite.com</a>, 
+        <a href="https://portableapps.com/">PortableApps.com</a>
+      </td>
+      <td>Putty.exe, notepad.exe, ida.exe</td>
+      <td>3500</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:right;"><strong>Total</strong></td>
+      <td><strong>7700</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ## :gear: **Enhanced Features**  
 - Hybrid AI detection **(XGBoost + Random Forest)**
@@ -293,13 +339,13 @@ Decision Threshold: 35.93%
 
 ## 🤝 **ROC Curve Analysis**
 <p align="center">
-  <img src="assets/Picture2.png" alt="ROC Curve: Malware Detection Performance" width="500"/>
+  <img src="assets/ROC_Curve.png" alt="ROC Curve: Malware Detection Performance" width="500"/>
 </p>
 
 **Model Performance Metrics:**
 - 🟦 **Our Model (AUC = 1.00)**: Perfect classification capability  
 - 🟥 **Random Guess (AUC = 0.5)**: Baseline for comparison  
-- 📊 **Optimal Threshold**: 0.36 (balances TPR/FPR)  
+- 📊 **Optimal Threshold**: 36% (0.36 in probability units)  
 
 **Key Interpretation:**
 - **X-axis (False Positive Rate)**: Lower values = fewer false alarms  
