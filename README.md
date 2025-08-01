@@ -57,13 +57,17 @@
       <td colspan="3" style="text-align:right;"><strong>Total</strong></td>
       <td><strong>14,515</strong></td>
     </tr>
+    <tr>
+      <td colspan="3" style="text-align:right;"><strong>Size</strong></td>
+      <td><strong>11.81 GB</strong></td>
+    </tr>
   </tbody>
 </table>
 
 </div>
 
 - **Dataset Processing:** From **10,925 malware samples,** we processed **4,200 for feature extraction,** then applied **Undersampling to balance with 3,500 benign samples (7,000 total)**. Used **RandomUnderSampler (random_state=42)** to **prevent malware bias while preserving key patterns.**
-- Benign and Malicious Dataset Link (11.81 GB on MEGA): https://mega.nz/folder/iAU3iARQ#nKPwCQIW4jZgAEFmRJlR6Q
+- Benign and Malicious Dataset Link **(11.81 GB on MEGA)**: https://mega.nz/folder/iAU3iARQ#nKPwCQIW4jZgAEFmRJlR6Q
 - **⚠️ Safety Notice:**
   - Please exercise caution when downloading and handling this dataset. It contains both benign and malicious files for research purposes.
   - Do not execute or open any files unless you're in a secure, isolated environment (e.g., a virtual machine or sandbox). Executing malicious files can harm your system or compromise your data.
