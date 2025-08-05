@@ -357,7 +357,7 @@ Decision Threshold: 35.93%
 - **Retrain the Model:**
   - Add misclassified samples to your dataset and rerun train_model.py.
 
-## 🤝 **ROC Curve Analysis**
+## 📈 **ROC Curve Analysis**
 <p align="center">
   <img src="assets/ROC_Curve.png" alt="ROC Curve: Malware Detection Performance" width="500"/>
 </p>
