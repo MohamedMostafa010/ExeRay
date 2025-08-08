@@ -357,6 +357,13 @@ Decision Threshold: 35.93%
 - **Retrain the Model:**
   - Add misclassified samples to your dataset and rerun train_model.py.
 
+## 📄 **Scientific Research Paper**
+- Presented the **ExeRay scientific research paper at the 9th International Undergraduate Research Conference (IUGRC 2025), held at the Military Technical College (MTC), Cairo, Egypt.**
+- The full academic paper (PDF) is included in this repository under the **assets/ folder: ExeRay Paper.pdf**
+### 🎞️ Paper Preview (GIF)
+<p align="center"> <img src="assets/ExeRay_Thumbnail.gif" alt="ExeRay Paper Preview" width="550"/> </p>
+- The dataset in the paper is smaller for benchmarking under academic constraints.
+
 ## 📈 **ROC Curve Analysis**
 <p align="center">
   <img src="assets/ROC_Curve.png" alt="ROC Curve: Malware Detection Performance" width="500"/>
