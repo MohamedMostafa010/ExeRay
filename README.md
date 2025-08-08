@@ -360,9 +360,13 @@ Decision Threshold: 35.93%
 ## 📄 **Scientific Research Paper**
 - Presented the **ExeRay scientific research paper at the 9th International Undergraduate Research Conference (IUGRC 2025), held at the Military Technical College (MTC), Cairo, Egypt.**
 - The full academic paper (PDF) is included in this repository under the **assets/ folder: ExeRay Paper.pdf**
-### 🎞️ Paper Preview (GIF)
-<p align="center"> <img src="assets/ExeRay_Thumbnail.gif" alt="ExeRay Paper Preview" width="550"/> </p>
 - The dataset in the paper is smaller for benchmarking under academic constraints.
+
+<div align="center">
+
+### 🎞️ Paper Preview (GIF)
+<img src="assets/ExeRay_Thumbnail.gif" alt="ExeRay Paper Preview" width="550"/>
+</div>
 
 ## 📈 **ROC Curve Analysis**
 <p align="center">
