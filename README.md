@@ -6,7 +6,7 @@
 *Advanced X-ray Vision for Windows Executables*    
 
 - Detect malicious `.exe` files using machine learning. Extracts **static features (entropy, imports, metadata) and combines ML with heuristic rules for fast, automated classification.**  
-
+ 
 ---
 
 ## 🚀 What's New in v2.0
