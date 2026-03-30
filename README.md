@@ -237,6 +237,7 @@ ExeShield_AI/
 │   ├── extract_features.py  
 │   ├── train_model.py  
 │   └── predict.py
+│   └── visualize_model.py
 ├── visualizations/              # Model Feature & Tree Visualizations
 │   ├── feature_importances.png  
 │   ├── feature_importances_gain.png  
