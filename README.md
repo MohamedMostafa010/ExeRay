@@ -236,7 +236,14 @@ ExeShield_AI/
 ├── scripts/                     # Core Scripts  
 │   ├── extract_features.py  
 │   ├── train_model.py  
-│   └── predict.py  
+│   └── predict.py
+├── visualizations/              # Model Feature & Tree Visualizations
+│   ├── feature_importances.png  
+│   ├── feature_importances_gain.png  
+│   └── xgb_tree_0.png
+│   └── xgb_tree_1.png
+│   └── xgb_tree_2.png
+│   └── xgb_tree_99.png  
 └── README.md
 ```
 
